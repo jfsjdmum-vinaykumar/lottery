@@ -1,0 +1,114 @@
+<!--Design an application to announce 3 winners of Lottery with respective images?--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="lottery()">click here</button>
+    <br>
+    result:
+    <p id="one"></p>
+    <img id="img"></img>
+    <br>
+    <p id="two"></p>
+    <img id="img1"></img>
+    <br>
+    <p id="three"></p>
+    <img id="img2"></img>
+    <script>
+        function lottery(){
+            let randomnumber= document.getElementById('one').innerHTML=Math.floor(Math.random()*6+1);
+            let x = document.createElement("img");
+            switch(randomnumber){
+                   case 1:
+                    img.src="img/ajay.jpg";
+                    document.body.appendChild(x);
+                    break;
+                    case 2:
+                    img.src="img/ismail.jpg";
+                    document.body.appendChild(x);
+                    break;
+                    case 3:
+                    img.src="img/ramana.jpeg";
+                    document.body.appendChild(x);
+                    break;
+                    case 4:
+                    img.src="img/sai.jpg.jpeg";
+                    document.body.appendChild(x);
+                    break;
+                    case 5:
+                    img.src="img/surya.jpeg";
+                    document.body.appendChild(x);
+                    break;
+                    case 6:
+                    img.src="img/vinay.jpg";
+                    document.body.appendChild(x);
+                    break;
+
+            }
+            let anothernumber = document.getElementById('two').innerHTML=Math.floor(Math.random()*6+1);
+            let y = document.createElement("img1");
+            switch(anothernumber){
+                   case 1:
+                    img1.src="img/ajay.jpg";
+                    document.body.appendChild(y);
+                    break;
+                    case 2:
+                    img1.src="img/ismail.jpg";
+                    document.body.appendChild(y);
+                    break;
+                    case 3:
+                    img1.src="img/ramana.jpeg";
+                    document.body.appendChild(y);
+                    break;
+                    case 4:
+                    img1.src="img/sai.jpg.jpeg";
+                    document.body.appendChild(y);
+                    break;
+                    case 5:
+                    img1.src="img/surya.jpeg";
+                    document.body.appendChild(y);
+                    break;
+                    case 6:
+                    img1.src="img/vinay.jpg";
+                    document.body.appendChild(y);
+                    break;
+
+            }
+            let thridnumber = document.getElementById('three').innerHTML=Math.floor(Math.random()*6+1);
+            let z = document.createElement("img2");
+            switch(thridnumber){
+                   case 1:
+                    img2.src="img/ajay.jpg";
+                    document.body.appendChild(z);
+                    break;
+                    case 2:
+                    img2.src="img/ismail.jpg";
+                    document.body.appendChild(z);
+                    break;
+                    case 3:
+                    img2.src="img/ramana.jpeg";
+                    document.body.appendChild(z);
+                    break;
+                    case 4:
+                    img2.src="img/sai.jpg.jpeg";
+                    document.body.appendChild(z);
+                    break;
+                    case 5:
+                    img2.src="img/surya.jpeg";
+                    document.body.appendChild(z);
+                    break;
+                    case 6:
+                    img2.src="img/vinay.jpg";
+                    document.body.appendChild(z);
+                    break;
+            }
+           
+        }
+    </script>
+</body>
+</html>
